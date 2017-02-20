@@ -1,0 +1,18 @@
+.jumbotron {
+   background-color: #3A2D7D;/*HPU-specific purple*/
+   color: white;
+}
+
+
+.nav li:hover {
+   background-color: gray;
+   color: black;
+}
+
+/*Applied with javascript when scrolling*/
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+  position: fixed;
+    width: 100%;
+}
