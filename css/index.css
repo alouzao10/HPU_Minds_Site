@@ -2,3 +2,10 @@
    background-color: #3A2D7D;
    color: white;
 }
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+  position: fixed;
+    width: 100%;
+}
