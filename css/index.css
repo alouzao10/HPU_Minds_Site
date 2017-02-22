@@ -9,10 +9,18 @@
    color: black;
 }
 
+.nav li {
+   text-align: left;
+}
+
 /*Applied with javascript when scrolling*/
 .navbar-fixed {
     top: 0;
     z-index: 100;
   position: fixed;
     width: 100%;
+}
+
+#link-list {
+   display: none;
 }
