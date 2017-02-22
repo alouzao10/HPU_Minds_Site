@@ -8,3 +8,10 @@ $(document).ready(function() {
       }
    });
 });
+
+function alterNav(x) {
+   var linkList=document.getElementById(x);
+   if (linkList.style.display === "none")
+      linkList.style.display = "inline-block";
+   else linkList.style.display = "none";
+}
