@@ -1,0 +1,21 @@
+.jumbotron {
+   background-color: #3A2D7D;/*HPU-specific purple*/
+   color: white;
+   margin-bottom: 0px;
+}
+
+.member-section {
+   margin-bottom: 5em;
+}
+
+.member-title {
+   font-size: 3em;
+}
+
+.member-name {
+   font-size: 2em;
+}
+
+.member-desc {
+   font-size: 1.2em;
+}
