@@ -19,6 +19,8 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
       <!-- General javascript -->
       <script type="text/javascript" src="./js/main.js"></script>
+      <!-- Page-specific javascript -->
+      <script tyep="text/javascript" src="./js/teams.js"></script>
    </head>
    
    <body id="page-top">
@@ -80,11 +82,11 @@
          </div>
 
          <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#home">Management</a></li>
-            <li><a data-toggle="tab" onclick="togglePane('sensor-team')">Sensor</a></li>
-            <li><a data-toggle="tab" onclick="togglePane('vision-team')">Vision</a></li>
-            <li><a data-toggle="tab" onclick="togglePane('control-team')">Control</a></li>
-            <li><a data-toggle="tab" onclick="togglePane('webdev-team')">Web Dev / Graphics</a></li>
+            <li id="nav-tab-home" class="in-page-nav active" onclick="togglePane('home')"><a data-toggle="tab">Management</a></li>
+            <li id="nav-tab-sensor-team" class="in-page-nav" onclick="togglePane('sensor-team')"><a data-toggle="tab">Sensor</a></li>
+            <li id="nav-tab-vision-team" class="in-page-nav" onclick="togglePane('vision-team')"><a data-toggle="tab">Vision</a></li>
+            <li id="nav-tab-control-team" class="in-page-nav" onclick="togglePane('control-team')"><a data-toggle="tab">Control</a></li>
+            <li id="nav-tab-webdev-team" class="in-page-nav" onclick="togglePane('webdev-team')"><a data-toggle="tab">Web Dev / Graphics</a></li>
          </ul>
          <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
@@ -126,13 +128,6 @@
                Jonathan Sekela (accurate representation)
             </div>
          </div>
-
-
-
-
-
-
-
       </div>
    </body>
 </html>
